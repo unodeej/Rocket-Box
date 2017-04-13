@@ -17,18 +17,20 @@ public class Rocket : MonoBehaviour {
     void OnCollisionEnter(Collision other)
     {
         
-        if (other.gameObject != gameObject)
-        {
-            
-            if (bounce==0)
-                Instantiate(impact, other.contacts[0].point, Quaternion.identity);
+		if (other.gameObject != gameObject) {
+			if (bounce == 0) {
+				Debug.Log ("explode");
+				Instantiate (impact, other.contacts [0].point, Quaternion.identity);
+				gameObject.SetActive (false);
+			}	
             else
             {
-                Debug.Log("hit");
+				Debug.Log("hit" + bounce);
                 Vector3 reflected = Vector3.Reflect(transform.forward, other.transform.forward);
                 Quaternion reflectedRotation = Quaternion.LookRotation(reflected);
                 transform.rotation = reflectedRotation;
+				bounce--;
             }
         }
-    }
+	}
 }

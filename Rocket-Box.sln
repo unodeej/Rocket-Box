@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{0621AF38-F7F1-006D-DA8B-B98F0D9EDF86}") = "Rocket-Box", "Assembly-CSharp-firstpass.csproj", "{18B9ACFA-90DE-2F7C-ADED-EE1FA5CF392B}"
+EndProject
+Project("{0621AF38-F7F1-006D-DA8B-B98F0D9EDF86}") = "Rocket-Box", "Assembly-CSharp.csproj", "{70171422-0D95-06F7-CEAB-2FAEA6CA1833}"
+EndProject
+Project("{0621AF38-F7F1-006D-DA8B-B98F0D9EDF86}") = "Rocket-Box", "Assembly-CSharp-Editor.csproj", "{35BCC7FD-9C70-9170-F317-F3718B2E5D08}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18B9ACFA-90DE-2F7C-ADED-EE1FA5CF392B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18B9ACFA-90DE-2F7C-ADED-EE1FA5CF392B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18B9ACFA-90DE-2F7C-ADED-EE1FA5CF392B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18B9ACFA-90DE-2F7C-ADED-EE1FA5CF392B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70171422-0D95-06F7-CEAB-2FAEA6CA1833}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70171422-0D95-06F7-CEAB-2FAEA6CA1833}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70171422-0D95-06F7-CEAB-2FAEA6CA1833}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70171422-0D95-06F7-CEAB-2FAEA6CA1833}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35BCC7FD-9C70-9170-F317-F3718B2E5D08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35BCC7FD-9C70-9170-F317-F3718B2E5D08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35BCC7FD-9C70-9170-F317-F3718B2E5D08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35BCC7FD-9C70-9170-F317-F3718B2E5D08}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
